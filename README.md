@@ -1,2 +1,5 @@
 # Array-min-max-
-Array min/max values in JS 
+ 
+var myArray = [1, 2, 3, 4];
+Math.min.apply(null, myArray); // 1
+Math.max.apply(null, myArray); // 4
